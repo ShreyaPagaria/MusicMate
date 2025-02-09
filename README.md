@@ -23,13 +23,13 @@ A simple web application that allows users to convert their Spotify playlists in
 1. **Clone the repository** to your local machine:
 
     ```bash
-    git clone https://github.com/your-username/spotify-to-mp3.git
+    git clone https://github.com/ShreyaPagaria/MusicMate.git
     ```
 
 2. **Navigate into the project directory**:
 
     ```bash
-    cd spotify-to-mp3
+    cd MusicMate
     ```
 
 3. **Install dependencies** for both frontend and backend:
