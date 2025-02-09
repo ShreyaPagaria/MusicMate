@@ -1,0 +1,94 @@
+@font-face {
+    font-family: 'Munro';
+    src: url('spotifytomp3/fonts/Munro.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Munro' ,Arial, sans-serif;
+    /* background-color: #f5f5f5; */
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    /* background-image: url("/spotifytomp3/frontend/bg5.gif");  */
+    background-image: url("https://t4.ftcdn.net/jpg/07/17/59/89/360_F_717598960_B4qLzQBCLWl4qocMhVQjAzM7mRrw2LDA.jpg");
+    background-size: 100%; /* or contain, auto, 100% 100%, etc. - see below */
+    background-repeat: no-repeat; /* Prevents image tiling */
+    background-position: center center; 
+}
+
+.container {
+    background-color: #ffcc00;
+    /* background-color: transparent; */
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    width: 400px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    font-size: 2rem;
+    color: #ff4444;
+    margin-bottom: 20px;
+}
+
+input[type="text"] {
+    padding: 10px;
+    width: 80%;
+    margin-bottom: 10px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-family: 'Munro';
+    text-align: center;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #ff4444;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-family: 'Munro';
+    text-align: center;
+    /* font-family: 'Munro'; */
+}
+
+button:hover {
+    background-color: #cc3737;
+}
+
+.hidden {
+    display: none;
+}
+
+#mp3Links ul {
+    list-style-type: none;
+}
+
+#mp3Links li {
+    margin: 10px 0;
+}
+
+#mp3Links a {
+    color: #0088cc;
+    text-decoration: none;
+}
+
+#mp3Links a:hover {
+    text-decoration: underline;
+}
