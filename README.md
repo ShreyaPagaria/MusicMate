@@ -1,4 +1,5 @@
 # MusicMate
+I have always had the trouble of listening to ads and not buying premium hence I created this website which:
 Let's you download your Spotify playlists to mp3 files
 # Spotify to MP3 Converter
 
