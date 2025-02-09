@@ -7,12 +7,12 @@ Welcome to the **Spotify to MP3 Converter**! This project allows you to convert 
 - Download individual songs or as a zip file (in progress for efficiency)
 
 ### Before:
-![Before Processing](before.png)
+![](before.png)
 
 This is how the interface looks before processing the playlist.
 
 ### After:
-![After Processing](after.png)
+![](after.png)
 
 Once processed, the MP3 download links are generated and ready for you to use.
 
