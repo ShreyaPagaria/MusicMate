@@ -37,7 +37,7 @@ A simple web application that allows users to convert their Spotify playlists in
     ```bash
     npm install
     ```
-
+   
 4. **Set up environment variables** by creating a `.env` file at the root of the project and adding your Spotify credentials:
 
     ```bash
@@ -50,8 +50,20 @@ A simple web application that allows users to convert their Spotify playlists in
     ```bash
     pip install yt-dlp
     ```
-
+    
+6. **Install FFmpeg** (required by yt-dlp for processing audio):
+   - Download FFmpeg from [FFmpeg Builds](https://www.gyan.dev/ffmpeg/builds/).
+   - Download the "ffmpeg-release-essentials.zip".
+   - Extract the contents of the ZIP file to `C:/ffmpeg`.
+   - Inside the extracted folder, locate the `bin` directory (e.g., `C:/ffmpeg/bin`).
+   - **Add the `bin` folder to your system’s PATH environment variable**:
+     1. Open the **Start Menu** and search for **Environment Variables**.
+     2. Click on **Edit the system environment variables**.
+     3. Under **System Properties**, click **Environment Variables**.
+     4. In the **System Variables** section, select **Path**, then click **Edit**.
+     5. Add the path to the `bin` folder (e.g., `C:/ffmpeg/bin`) and click **OK**.
 ## Running the Project
+
 
 1. **Start the server**:
 
@@ -67,5 +79,5 @@ A simple web application that allows users to convert their Spotify playlists in
 2. Click **Convert Playlist** to fetch the tracks from the playlist and generate MP3 download links.
 3. **Click the "Download MP3"** links to download individual tracks from the playlist.
 
-## Folder Structure
+
 
