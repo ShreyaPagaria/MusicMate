@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify to MP3</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Spotify to MP3 Music Converter</h1>
+        <input type="text" id="playlistUrl" placeholder="Enter Spotify Playlist URL">
+        <button id="convertBtn" onclick="convertPlaylist()">Convert Playlist to MP3</button>
+
+        <div id="loadingMessage" class="hidden">Processing...</div>
+        <div id="mp3Links" class="hidden">
+            <h2>Download MP3s:</h2>
+            <ul id="downloadList"></ul>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
